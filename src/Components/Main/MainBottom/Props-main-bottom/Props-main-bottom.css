@@ -1,0 +1,59 @@
+.container-props-main-bottom {
+    width: 21.5rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-main-bottom {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.image-main-bottom:hover {
+    opacity: 1;
+}
+
+.title-props-main-bottom {
+    margin-top: 0.8rem;
+    font-size: 1.14rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fcb900;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.title-props-main-bottom:hover {
+    color: #ff6900;
+}
+
+.price-props-main-bottom {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botton-propsmain-bottom {
+    margin-top: 1rem;
+    width: 9.9rem;
+    height: 3.5rem;
+    border-radius: 3rem;
+    background-color: #fdc674;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botton-propsmain-bottom:hover {
+    background-color: #ad8a69;
+    color: white;
+}
+
+.h3-botton-propsmain-bottom {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 1.1rem 2rem;
+}

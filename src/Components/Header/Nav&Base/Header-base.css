@@ -1,0 +1,82 @@
+.container-HeaderBase {
+    position: relative;
+
+}
+
+.img-Header {
+    position: absolute;
+    background-color: #1d3031;
+}
+
+.img-HeaderBase {
+    width: 96rem;
+    filter: grayscale(10%);
+    opacity: 0.2;
+
+}
+
+.text-HeaderBase {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    left: 29rem;
+    top: 12rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.header-bottom {
+    position: absolute;
+    background-color: #fdc674;
+    width: 14.5rem;
+    height: 4.5rem;
+    border-radius: 100px;
+    left: 40.7rem;
+    top: 28rem;
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom:hover {
+    background-color: #ad8a69;
+}
+
+.header-bottom:hover a {
+    color: #fff;
+}
+
+.header-bottom-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-style: none;
+    color: black;
+    text-transform: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+.arrow {
+    font-size: 1.8rem;
+    transition: 0.3s;
+}
+
+.header-bottom:hover .arrow {
+    color: #fff;
+}
