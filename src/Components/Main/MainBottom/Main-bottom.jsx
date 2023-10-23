@@ -1,4 +1,4 @@
-import './Main-Bottom.css'
+import './Main-bottom.css'
 import PropsMainBottom from './Props-main-bottom/Props-main-bottom'
 
 
