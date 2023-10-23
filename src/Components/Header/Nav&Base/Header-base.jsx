@@ -4,7 +4,7 @@ export default function HeaderBase() {
     return (
         <div className='container-HeaderBase'>
             <div className='img-Header'>
-                <img className='img-HeaderBase' src="public/neve-pet-shop-04.webp" alt="" />
+                <img className='img-HeaderBase' src="/neve-pet-shop-04.webp" alt="" />
             </div>
             <div className='text-HeaderBase'>
                 <h2>Discover the finest <br /> products for your pet</h2>
